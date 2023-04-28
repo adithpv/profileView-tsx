@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto:wght@300&display=swap");
+
+:root {
+  --PRIMARY-COLOR: #add8e6;
+  --BG-NAV: #d3d3d3;
+  --BG-COLOR: #EEEEEEE;
+  --TYPOGRAPHY: #fff;
+
+  --FONT-FAMILY-1: "Roboto", sans-serif;
+  --FONT-FAMILY-2: "Castoro Titling", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+}
+
+body {
+  font-family: var(--FONT-FAMILY-1);
+  color: var(--TYPOGRAPHY);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 0.5em;
+}
+
+@media (max-width: 375px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+}

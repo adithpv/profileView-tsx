@@ -1,0 +1,20 @@
+.missing {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.missing h2 {
+  margin-bottom: 1rem;
+}
+
+.missing a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.missing a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
